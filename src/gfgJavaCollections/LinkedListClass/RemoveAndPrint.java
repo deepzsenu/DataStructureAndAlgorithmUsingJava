@@ -7,6 +7,8 @@ import java.util.Iterator;
 public class RemoveAndPrint {
     static  void add(ArrayList<Integer> li, int n){
         li.add(n);
+
+
     }
     public static  void removeAndPrint(ArrayList<Integer> li, int x){
         Iterator it = li.iterator();
